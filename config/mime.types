@@ -1,0 +1,6 @@
+html    text/html
+txt     text/plain
+
+png     image/png
+# comment
+jpg     image/jpeg
