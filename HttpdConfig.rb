@@ -1,10 +1,8 @@
-class HttpdConfig
-	def initialize()
-		listen
-		document_type
-		log_file
-	end 
+class HttpdConfig < ConfigFile
 
-	alias
+	@config = load
 
+	def get(key)
+		config[key]
+	end
 end

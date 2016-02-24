@@ -1,7 +1,7 @@
 require 'socket'
-require_relative 'Response'
-require_relative 'Request'
-server = TCPServer.new('localhost', 1500)
+#require_relative 'Response'
+#require_relative 'Request'
+server = TCPServer.new('localhost', 15000)
 loop do
   puts "server running"
   socket = server.accept
