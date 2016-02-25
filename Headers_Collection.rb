@@ -10,5 +10,6 @@ class HeadersCollection
 	def to_s
 		@headers.map do |key, value|
 			"#{key}: #{value}"
+		end
 	end
 end
