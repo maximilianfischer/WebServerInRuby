@@ -10,7 +10,7 @@ class ConfigFile
 
 	def process_lines
 	#file_string is a string array, 
-	#extendable_hash is a hash that is created through this method
+	#hash is returned
 		@needed_lines = []
 		lines.each do |line|
 			unless line.length == 0 || line[0] == '#' #filters empty lines and comments
