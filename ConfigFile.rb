@@ -10,7 +10,6 @@ class ConfigFile
 
 	def process_lines
 	#file_string is a string array, 
-	#hash is returned
 		@needed_lines = []
 		lines.each do |line|
 			unless line.length == 0 || line[0] == '#' #filters empty lines and comments
